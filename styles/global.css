@@ -1,0 +1,36 @@
+:root{
+    --color-background: #F0F0F7;
+    --color-primary: #D2872C;
+    --color-secondary: #766F68;
+    font-size: 60%; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+body{
+    height: 100vh;
+}
+
+body{
+    /* background-color: var(--color-background); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    width: 90vw;
+    max-width: 700px;
+
+}
+
+@media(min-width: 700px){
+    :root{
+        font-size: 62.5%;
+    }
+}

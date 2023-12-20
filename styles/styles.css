@@ -1,0 +1,17 @@
+#amazing-graph{
+    background: var(--color-background);
+}
+
+.header{
+    text-align: center;
+    margin: 3.2rem;
+
+    display: flex;
+}
+
+
+.header .menu #nav{
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--color-secondary);
+}

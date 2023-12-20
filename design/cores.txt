@@ -1,0 +1,2 @@
+Laranja: # D2872C
+Cinza: # 766F68
